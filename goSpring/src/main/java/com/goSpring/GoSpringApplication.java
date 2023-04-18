@@ -8,7 +8,6 @@ public class GoSpringApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GoSpringApplication.class, args);
-		System.out.println("ASDFasdfasd");
 	}
 
 }
