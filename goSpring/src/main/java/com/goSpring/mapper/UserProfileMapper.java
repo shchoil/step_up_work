@@ -14,6 +14,7 @@ import com.goSpring.model.UserProfile;
 @Mapper
 public interface UserProfileMapper {
 
+	
 	@Select("SELECT * FROM UserProfile WHERE id=#{id}")
 	UserProfile getUserProfile(@Param("id") String id);
 	
