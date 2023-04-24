@@ -23,7 +23,7 @@ public class UserProfileController {
 		this.mapper = mapper;
 	}
 	
-	@PostConstruct
+//	@PostConstruct
 //	'@PostConstruct'는 스프링 프레임워크에서 제공하는 어노테이션으로, 해당 클래스의 인스턴스가 생성된 후 초기화 작업이 필요한 메서드에 적용하는 것을 권장한다, 이 어노테이션이 적용된 메서드는 객체 생성 후 초기화를 위해 호출되는데,
 //	이 때 객체가 완전히 생성된 후에 호출되므로 생성자에서 할 수 없는 초기화 작업을 수행할 수 있습니다.
 //	public void init() {
